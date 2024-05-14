@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Lobster&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;1,200;1,300&family=Lobster&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;   
+}
+
+body{
+    background-color: white;
+    font-family: 'Alata', sans-serif;
+    overflow-x: hidden;
+}
+
+/* HEADER */
+header{
+    position: relative;
+    background-image: url(../img-desktop/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
+    opacity: 1.1;
+    
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-between;     
+}
+
+.nav__logo{
+    margin: 20px;
+    position: absolute;
+    top: 45px;
+    left: 145px;
+}
+.nav__logo a img{
+    width: 183px;
+    height: 30px;
+}
+
+.nav__menu{
+    position: absolute;
+    top: 60px;
+    right: 240px;     
+}
+
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    width: 200px; 
+}
+
+li{
+    margin: 10px;
+    margin-right: 13px;
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: 15px;
+    font-weight: 600;
+}
+
+li a{
+    color: rgb(222, 219, 219);
+    text-decoration: none;
+}
+li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.hero{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 725px;
+    height: 270px;
+    position: absolute;
+    top: 213px;
+    left: 169px;
+    border: 2px solid white;
+    padding-left: 35px;
+}
+
+.hero h1{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 64px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    line-height: 1.0;
+    color: white;
+    opacity: 0.9;    
+}
+
+/* section  */
+    /*  Article  */
+
+section{
+    background-color: white;
+    position: relative;
+    width: 100vw;
+    height: 700px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.section__interactive{
+    position: absolute;
+    top: 100px;
+    left: 169px;
+    background-image: url(../img-desktop/image-interactive.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 45vw;
+    height: 470px;    
+}
+
+article{
+    position: absolute;
+    top: 38%;
+    left: 45%;
+    background-color: white;
+    width: 45vw;
+    height: 50%;
+}
+
+.article__h2{
+    color: black;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 1.1;
+    letter-spacing: 2px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 45px;
+    font-weight: 300;
+    padding-top: 90px;
+    padding-left: 105px;
+    opacity: 0.85;
+}
+
+.article__p{
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    color: rgb(114, 113, 113);
+    text-align: left;
+    line-height: 1.5;
+    padding-top: 18px;
+    padding-left: 105px;    
+}
+
+    /*  aside  */
+aside{
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    width: 100vw;
+    height: 150px;
+    position: absolute;
+    top: 100%; 
+}
+
+.aside__h2{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1.1;
+    margin-bottom: 100px;
+    opacity: 0.85;
+    position: absolute;
+    top: 90px;
+    left: 11%;
+}
+
+.aside__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    background-color: transparent;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    width: 159px;
+    height: 43px;
+    padding: 10px;
+    position: absolute;
+    top: 90px;
+    right: 13%;
+    cursor: pointer;    
+}
+
+.aside__btn:hover{
+    background-color: black;
+    color: white;
+    width: 165px;
+    height: 48px;
+    transition: all 0.4s ease;
+}
+
+.aside__options01{
+    background-color: white;
+    display: flex;
+    width: 100vw;
+    height: 550px;
+    position: absolute;
+    top: 850px; 
+}
+
+.option01_image{
+    width: 225px;
+    height: 430px;
+    margin: 15px;
+    position: relative;
+    top: 90px;
+    left: 10%;
+}
+
+.aside__options02{
+    background-color: white;
+    display: flex;
+    width: 100vw;
+    height: 750px;
+    position: absolute;
+    top: 1400px; 
+}
+
+.option02_image{
+    width: 225px;
+    height: 430px;
+    margin: 15px;
+    position: relative;
+    top: 0px;
+    left: 10%;
+}
+
+.img01{
+    background-image: url(../img-desktop/image-deep-earth.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;    
+}
+.img01:hover{
+    position: relative;
+    top: 70px;
+    transition: all 0.4s ease;
+}
+
+.img02{
+    background-image: url(../img-desktop/image-night-arcade.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;    
+}
+.img02:hover{
+    position: relative;
+    top: 70px;
+    transition: all 0.4s ease;
+}
+.img03{
+    background-image: url(../img-desktop/image-soccer-team.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.img03:hover{
+    position: relative;
+    top: 70px;
+    transition: all 0.4s ease;
+}
+.img04{
+    background-image: url(../img-desktop/image-grid.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.img04:hover{
+    position: relative;
+    top: 70px;
+    transition: all 0.4s ease;
+}
+.img05{
+    background-image: url(../img-desktop/image-from-above.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.img05:hover{
+    position: relative;
+    top: -20px;
+    transition: all 0.4s ease;
+}
+.img06{
+    background-image: url(../img-desktop/image-pocket-borealis.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.img06:hover{
+    position: relative;
+    top: -20px;
+    transition: all 0.4s ease;
+}
+.img07{
+    background-image: url(../img-desktop/image-curiosity.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;
+}
+.img07:hover{
+    position: relative;
+    top: -20px;
+    transition: all 0.4s ease;
+}
+.img08{
+    background-image: url(../img-desktop/image-fisheye.jpg);
+    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    cursor: pointer;
+}
+
+.img08:hover{
+    position: relative;
+    top: -20px;
+    transition: all 0.4s ease;
+}
+
+.option__p{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1.1;
+    padding-bottom: 40px;
+    padding-left: 27px;
+    opacity: 0.95;
+}
+
+    /* Footer */
+
+.footer{
+    background-color: black;
+    width: 100vw;
+    height: 250px;
+    position: relative;
+    top: 1450px;   
+}
+
+.footer a img{
+    width: 12%;
+    position: absolute;
+    top: 80px;
+    left: 170px;
+}
+
+.footer__menu{
+    position: absolute;
+    top: 150px;
+    left: 16%;
+}
+
+.footer__menu a{
+    color: darkgray;
+}
+
+.footer_redes_sociais{
+    display: inline-block;
+    position: relative;
+    top: 100px;
+    left: 76%;
+    width: 15%;
+    height: 40px;
+}
+
+.footer_redes_sociais img{
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.footer__p{
+    color: white;
+    font-size: smaller;
+    position: absolute;
+    top: 228px;
+    left: 40%;    
+}
+
+.footer__p a{
+    color: hsl(228, 45%, 44%);
+}
+
+.footer__copyright{
+    color: rgb(110, 108, 108);
+    font-size: medium;
+    position: absolute;
+    top: 160px;
+    left: 68%;
+}

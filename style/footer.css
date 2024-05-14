@@ -1,0 +1,139 @@
+@media (min-width: 320px) and (max-width: 569px){
+    .footer{
+        width: 100vw;
+        height: 550px;
+        position: relative;
+        top: 1800px;   
+    }
+    .footer a img{
+        width: 32%;
+        position: absolute;
+        top: 60px;
+        left: 32%;
+    }
+    .nav__menu_footer{
+        top: 110px;
+        left: 40%;
+        
+    }
+    .nav__menu_footer ul{
+        display: block;
+    }
+    .nav__menu_footer ul li{
+        padding: 10px;   
+    }
+    .nav__menu_footer ul li a{
+        font-size: 110%;   
+    }
+    .footer_redes_sociais{
+        display: flex;
+        position: relative;
+        top: 400px;
+        left: 35%;
+        width: 12%;
+        height: 5%;
+    }
+    .footer__copyright{
+        top: 450px;
+        left: 20%;
+    }
+    .footer__p{
+        color: white;
+        font-size: smaller;
+        position: absolute;
+        top: 490px;
+        left: 15%;    
+    }
+}
+
+@media (min-width: 570px) and (max-width: 869px){
+    .footer{
+        width: 100vw;
+        height: 550px;
+        position: relative;
+        top: 1800px;   
+    }
+    .footer a img{
+        width: 25%;
+        position: absolute;
+        top: 60px;
+        left: 35%;
+    }
+    .nav__menu_footer{
+        top: 130px;
+        left: 43%;
+        
+    }
+    .nav__menu_footer ul{
+        display: block;
+    }
+    .nav__menu_footer ul li{
+        padding: 10px;   
+    }
+    .nav__menu_footer ul li a{
+        font-size: 110%;   
+    }
+    .footer_redes_sociais{
+        display: flex;
+        position: relative;
+        top: 430px;
+        left: 40%;
+        width: 12%;
+        height: 5%;
+    }
+    .footer__copyright{
+        top: 480px;
+        left: 32%;
+    }
+    .footer__p{
+        color: white;
+        font-size: smaller;
+        position: absolute;
+        top: 510px;
+        left: 28%;    
+    }
+}
+
+@media (min-width: 869px)and (max-width: 1224px){
+    .footer{
+        width: 100vw;
+        height: 300px;
+        position: relative;
+        top: 1350px;   
+    }
+    
+    .footer a img{
+        width: 13%;
+        position: absolute;
+        top: 100px;
+        left: 10%;
+    }
+    
+    .footer__menu{
+        position: absolute;
+        top: 150px;
+        left: 16%;
+    }
+    
+    .footer_redes_sociais{
+        display: inline-block;
+        position: relative;
+        top: 100px;
+        left: 66%;
+        width: 25%;
+        height: 40px;
+    }
+    .footer__p{
+        color: white;
+        font-size: smaller;
+        position: absolute;
+        top: 270px;
+        left: 32%;    
+    }
+    
+    .footer__copyright{
+        position: absolute;
+        top: 160px;
+        left: 58%;
+    }
+}
